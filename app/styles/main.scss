@@ -1,12 +1,27 @@
 @import "variables";
 @import "headings";
 
-.div1 {
-	background: blue;
+.ink-grid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.main-header {
+	background: lightblue;
+	height: 100px;
+}
+
+.test {
+	background: yellow;
 	height: 100px;
 }
 
 .div2 {
 	background: red;
 	height: 100px;
+}
+
+.login {
+	text-align: left;
+	padding-top: 80px;
 }
