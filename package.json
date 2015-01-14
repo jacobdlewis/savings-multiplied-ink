@@ -1,0 +1,27 @@
+{
+  "name": "(savings-multiplier-ink)",
+  "version": "0.0.1",
+  "description": "Project using INK framework",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdfinlayson/savings-multiplied-ink.git"
+  },
+  "keywords": [
+    "Grunt",
+    "INK",
+    "framework"
+  ],
+  "authors": [
+    "Bryan Finlayson <bdfinlayson@gmail.com>",
+    "Matthew Reuther <matthew.reuther@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bdfinlayson/savings-multiplied-ink/issues"
+  },
+  "homepage": "https://github.com/bdfinlayson/savings-multiplied-ink"
+}
