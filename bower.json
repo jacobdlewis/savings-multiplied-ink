@@ -9,5 +9,8 @@
   "description": "project using ink framework",
   "main": "public/index.html",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "Ink": "~3.1.2"
+  }
 }
