@@ -1,0 +1,13 @@
+{
+  "name": "savings-multiplied-ink",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bdfinlayson/savings-multiplied-ink",
+  "authors": [
+    "Matthew Reuther <matthew.reuther@gmail.com>",
+    "Bryan Finlayson <bdfinlayson@gmail.com>"
+  ],
+  "description": "project using ink framework",
+  "main": "public/index.html",
+  "license": "MIT",
+  "private": true
+}
