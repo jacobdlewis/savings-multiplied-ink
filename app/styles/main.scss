@@ -6,22 +6,270 @@
 	padding-right: 0;
 }
 
-.main-header {
-	background: lightblue;
-	height: 100px;
+.row-1 {
+	background: #CDEEEC;
+	height: 135px;
 }
 
-.test {
-	background: yellow;
-	height: 100px;
+
+.row-2 {
+	height: 205px;
+	background: #CDEEEC;
 }
 
-.div2 {
-	background: red;
-	height: 100px;
+.col-2 {
+	background: white;
+	border-radius: 60px 0px 0px 0px;
+
+	& .main-logo {
+		height: 300px;
+		width: 450px;
+		margin-top: -110px;
+		margin-left: 15px;
+		padding-top: 50px;
+		padding-bottom: 0px;
+	}
 }
 
-.login {
-	text-align: left;
-	padding-top: 80px;
+.col-3 {
+	background: white;
+	border-radius: 0px 60px 0px 0px;
 }
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+.main-header-nav {
+	margin-top: 90px;
+	margin-left: -40px;
+}
+
+.about {
+	background: #78CBD0;
+	color: white;
+	padding: 3px 30px 3px 30px;
+	border-radius: 40px;
+}
+
+.content {
+	background: #8DB639;
+	color: white;
+	padding: 3px 35px 3px 30px;
+	border-radius: 40px;
+}
+
+.blog {
+	background: #6F308C;
+	color: white;
+	padding: 3px 40px 3px 40px;
+	border-radius: 40px;
+}
+
+.press {
+	background: #E9168C;
+	color: white;
+	padding: 3px 30px 3px 35px;
+	border-radius: 40px;
+}
+
+.main-tagline {
+	margin-left: -35px;
+	width: 800px;
+}
+
+.row-3 {
+	height: 40px;
+	background: #F1BEC9
+}
+
+ul.middle-nav {
+	margin: 0px;
+	padding-top: 4px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 23px;
+	font-family: serif;
+	line-spacing: 22px;
+	color: #74204F
+}
+
+
+li.buy {
+	padding: 0px 60px 0px 20px;
+	}
+
+.sell {
+	padding: 0px 60px 0px 20px;
+	}
+
+.how {
+	padding: 0px 60px 0px 20px;
+	}
+
+.links {
+	padding: 0px 60px 0px 20px;
+}
+
+li.community {
+	padding: 0px 60px 0px 20px;
+}
+
+input {
+	border: solid #E29CA9;
+	border-radius: 60px;
+	width: 115px;
+	height: 25px;
+	font-size: 10px;
+	padding: 0px 40px 0px 35px;
+	margin: 4px 50px 0px 0px;
+	background-image: url(https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/search.gif);
+	background-repeat: no-repeat;
+	background-position: 12px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #F5D1D9;
+    }
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #F5D1D9;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #F5D1D9;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #F5D1D9;
+}
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
