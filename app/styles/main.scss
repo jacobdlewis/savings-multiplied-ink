@@ -1,6 +1,9 @@
 @import "variables";
 @import "headings";
 
+
+
+
 @mixin margin-color {
 	background: #65c1c8;
 }
@@ -169,7 +172,7 @@ input {
 .col-21-main-content,
 .col-22-img1,
 .col-23-mr {
-	@include column-height;
+	min-height: 100%;
 }
 
 
@@ -191,7 +194,7 @@ input {
 }
 
 .sub-slogan {
-	font-size: 1.55rem;
+	font-size: 1.5rem;
 	color: #2A929B;
 	margin-top: 0;
 }
@@ -257,8 +260,9 @@ ul li {
 	@include content-color;
 }
 
-.tree {
+.img-tree {
 	padding-left: 90px;
+	float: right;
 }
 
 .img-quadruplets {
@@ -350,3 +354,25 @@ col-43-bottom-nav,
 	font-size: 1.15em;
 }
 
+ .main-wrapper-group {
+ 	min-height: 550px;
+ }
+
+ .content-images img {
+ 	width: 100%;
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+ }
+
+ .content-div {
+ 	height: 100%;
+ }
+
+ .hr {
+    margin: 0; padding: 0;    
+    height: 7px;    
+    background-image: url('https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png');
+    background-repeat: repeat-x;
+    background-color: white; /* just to see the padding in IE6 */
+    overflow:hidden;
+}
