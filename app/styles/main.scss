@@ -98,7 +98,7 @@ li {
 }
 
 ul.middle-nav {
-	margin: 0px;
+	margin: -15px;
 	padding-top: 4px;
 	text-align: center;
 	font-weight: bold;
@@ -110,23 +110,23 @@ ul.middle-nav {
 
 
 li.buy {
-	padding: 0px 60px 0px 20px;
+	padding: 2px 60px 0px 20px;
 	}
 
 .sell {
-	padding: 0px 60px 0px 20px;
+	padding: 2px 60px 0px 20px;
 	}
 
 .how {
-	padding: 0px 60px 0px 20px;
+	padding: 2px 60px 0px 20px;
 	}
 
 .links {
-	padding: 0px 60px 0px 20px;
+	padding: 2px 60px 0px 20px;
 }
 
 li.community {
-	padding: 0px 60px 0px 20px;
+	padding: 2px 60px 0px 20px;
 }
 
 input {
@@ -136,7 +136,7 @@ input {
 	height: 25px;
 	font-size: 10px;
 	padding: 0px 40px 0px 35px;
-	margin: 4px 50px 0px 0px;
+	margin: 0px 50px 0px 10px;
 	background-image: url(https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/search.gif);
 	background-repeat: no-repeat;
 	background-position: 12px;
