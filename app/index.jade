@@ -5,7 +5,8 @@ html(lang="en-US")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     title My Title
-    link(rel="stylesheet" href="/vendor/ink/dist/css/ink-flex.min.css")
+    link(rel="stylesheet" href="/vendor/Ink/dist/css/ink-flex.min.css")
+    link(rel="stylesheet" href="/vendor/Ink/dist/css/font-awesome.min.css")
     link(rel="stylesheet" href="css/main.css")
 
    .ink-grid 
@@ -16,18 +17,19 @@ html(lang="en-US")
             p sign in | sign up
       .column-group.row-2
         .all-10.col-1
-        .all-40.col-2
-            img.main-logo(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
-        .all-40.col-3
-            ul.main-header-nav
-              li.about About
-              li.content Content
-              li.blog Blog
-              li.press Press
-            img.main-tagline(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/tagline.png")
+        .column-group.all-80.col-2 
+            main-logo.xlarge-50.large-60.medium-40.small-100.tiny-100
+              img.main-logo(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
+            .main-header-nav.xlarge-50.large-40.medium-20.small-100.tiny-100
+              ul
+                li.about About
+                li.content Content
+                li.blog Blog
+                li.press Press
+                img.main-tagline(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/tagline.png")
         .all-10.col-4
       .column-group.row-3
-        .all-100.col
+        .middle-nav.xlarge-100.large-100.medium-50.small-50.tiny-10
             ul.middle-nav
               li.buy Buy
               li.sell Sell
@@ -36,35 +38,90 @@ html(lang="en-US")
               li.community Community
               input(type="text", placeholder="Search")
 
-      .column-group.main-wrapper-group
+      .column-group
         .all-10.col-20-ml
-        .all-80.content-div
-          .column-group
-            .all-60.medium-100.tiny-100.small-100.xsmall-100.col-21-main-content
-              .main-content-wrapper
-                ul
-                  li.slogan We're making one aspect of life easier for parents of multiples:
-                ul
-                  li.img
-                  img.slogan-image(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/owls/owl_bright_blue_32.png")
-                  li.sub-slogan buying and selling sets of gently used clothes!
-              .shop-now
-                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/left_2_shop_now.png")
-              .img-tree
-                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/tree.png")
-            .all-40.medium-100.tiny-100.small-100.xsmall-100.content-images
-              .col-22-img1
-                .img-twins
-                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg")
-                .img-triplets
-                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/triplets.jpg")
-                .img-quadruplets
-                  img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
+        .all-50.col-21-main-content
+          .main-content-wrapper
+            ul
+              li.slogan We're making one aspect of life easier for parents of multiples:
+            ul
+              li.img
+              img.slogan-image(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/owls/owl_bright_blue_32.png")
+              li.sub-slogan buying and selling sets of gently used clothes!
+        .all-30.col-22-img1
+          .img-twins
+            img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg")
         .all-10.col-23-mr
+      .column-group
+        .all-10.col-24-ml
+        .all-50.col-25-center-content
+          .shop-now
+            img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/left_2_shop_now.png")
+        .all-30.col-26-img2
+          .img-triplets
+            img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/triplets.jpg")
+        .all-10.col-27-mr
+      .column-group
+        .all-10.col-28-ml
+        .all-40.col-29-bottom-content
+        .all-10.col-30
+          .img-tree
+            img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/tree.png")
+        .all-30.col-31-img3
+          .img-quadruplets
+            img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
+        .all-10.col-32-mr
       .column-group
         .all-10.col-33-ml
         .all-80.col-34-footer-dotted-line
-          .hr
+          .dotted-line
+            ul
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
+              li
+                img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png")
         .all-10.col-35-mr
       .column-group
         .all-10.col-36-ml
