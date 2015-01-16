@@ -109,7 +109,7 @@ li {
 
 ul.middle-nav {
 	display:inline;
-	margin: 150px;
+	margin: 200px;
 	padding-top: 4px;
 	text-align: center;
 	font-weight: bold;
@@ -382,7 +382,7 @@ col-43-bottom-nav,
 /* media queries
 ================================= */
 
-@media (max-width:"720px") {
+@media (max-width: 1120px ) {
 	.img-tree {
 		display: none;
 	}
