@@ -36,10 +36,13 @@ module.exports = function (grunt) {
         port: 3333,
         base: 'public',
         hostname: 'localhost',
-        livereload: 35729
+        useAvailablePort: true,
+        open: true
       },
       server: {
-        open: true
+        options: {
+          livereload: true
+        }
       }
     },
 
@@ -50,17 +53,13 @@ module.exports = function (grunt) {
           reload: true
         }
       },
-      bower: {
-        files: ['bower.json'],
-        tasks: ['wireDependencies']
-      },
-      js: {
-        files: ['app/scripts/{,*/}*.js'],
-        tasks: ['newer:jshint:all']
+      other: {
+        files: ['app/**', '!app/**/*.jade', '!app/partials/**', '!app/styles/**', '!app/scripts/**'],
+        tasks: ['copy']
       },
       livereload: {
         options: { livereload: true },
-        files: ['public/**/*']
+        files: ['public/{,*/}*.{html,css,js}']
       },
       jade: {
         files: ['app/**/*.jade'],
@@ -70,20 +69,19 @@ module.exports = function (grunt) {
         files: ['app/styles/{,*/}*.{scss,sass}'],
         tasks: ['sass']
       }
-
     },
     copy: {
       main: {
         files: [
-      {expand: true, cwd: 'app', src: ['**', '!**/*.jade', '!partials/**', '!styles/**', '!scripts/**'], dest: 'public'},
+          {expand: true, cwd: 'app', src: ['**', '!**/*.jade', '!partials/**', '!styles/**', '!scripts/**'], dest: 'public'},
           {expand: true, cwd: 'bower_components', src: ['**'], dest: 'public/vendor'}
         ]
       }
     },
     clean: ['public']
-});
+  });
 
-grunt.registerTask('build', ['clean', 'copy', 'sass', 'jade']);
-grunt.registerTask('serve', ['build', 'connect:server', 'watch']);
-grunt.registerTask('default', []);
+  grunt.registerTask('build', ['clean', 'copy', 'sass', 'jade']);
+  grunt.registerTask('serve', ['build', 'connect:server', 'watch']);
+  grunt.registerTask('default', []);
 };
