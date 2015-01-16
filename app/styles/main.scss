@@ -376,3 +376,12 @@ col-43-bottom-nav,
     background-color: white; /* just to see the padding in IE6 */
     overflow:hidden;
 }
+
+/* media queries
+================================= */
+
+@media (max-width:"720px") {
+	.img-tree {
+		display: none;
+	}
+}
