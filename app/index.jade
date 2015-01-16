@@ -5,7 +5,8 @@ html(lang="en-US")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     title My Title
-    link(rel="stylesheet" href="/vendor/ink/dist/css/ink-flex.min.css")
+    link(rel="stylesheet" href="/vendor/Ink/dist/css/ink-flex.min.css")
+    link(rel="stylesheet" href="/vendor/Ink/dist/css/font-awesome.min.css")
     link(rel="stylesheet" href="css/main.css")
 
    .ink-grid 
@@ -16,19 +17,20 @@ html(lang="en-US")
             p sign in | sign up
       .column-group.row-2
         .all-10.col-1
-        .all-40.col-2
-            img.main-logo(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
-        .all-40.col-3
-            ul.main-header-nav
-              li.about About
-              li.content Content
-              li.blog Blog
-              li.press Press
-            img.main-tagline(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/tagline.png")
+        .column-group.all-80.col-2 
+            main-logo.xlarge-50.large-60.medium-40.small-100.tiny-100
+              img.main-logo(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
+            .main-header-nav.xlarge-50.large-40.medium-20.small-100.tiny-100
+              ul
+                li.about About
+                li.content Content
+                li.blog Blog
+                li.press Press
+                img.main-tagline(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/tagline.png")
         .all-10.col-4
       .column-group.row-3
-        .all-100.col
-            ul.middle-nav
+        .middle-nav.xlarge-50.large-50.medium-50.small-50.tiny-10
+            ul.middle-nav.all-100
               li.buy Buy
               li.sell Sell
               li.how How it Works

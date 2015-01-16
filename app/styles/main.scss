@@ -38,7 +38,7 @@
 
 .col-2 {
 	background: white;
-	border-radius: 60px 0px 0px 0px;
+	border-radius: 60px 60px 0px 0px;
 
 	& .main-logo {
 		height: 300px;
@@ -61,7 +61,7 @@ li {
 }
 
 .main-header-nav {
-	margin-top: 90px;
+	margin-top: 60px;
 	margin-left: -40px;
 }
 
@@ -94,7 +94,8 @@ li {
 }
 
 .main-tagline {
-	margin-left: -35px;
+	margin-left: -10px;
+	padding-top: 10px;
 	width: 800px;
 }
 
