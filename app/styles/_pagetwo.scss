@@ -9,15 +9,22 @@
 }
 
 
+
 .main-content.pagetwo {
 	background-color: white;
 	margin: auto 5% auto auto;
+
+}
+
+.main-content {
+	margin-top: 20px;
 }
 
 .side-nav {
 	background-color: #EDF9D3;
 	margin-top: 20px;
-	margin-left: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
 	border-radius: 30px;
 	padding: 40px 10px;
 	width: auto;
