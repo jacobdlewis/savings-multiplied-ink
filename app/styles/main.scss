@@ -1,6 +1,6 @@
 @import "variables";
 @import "headings";
-@import "pagetwo";
+
 
 
 
@@ -140,18 +140,18 @@ li.community {
 	padding: 2px 60px 0px 20px;
 }
 
-input {
-	border: solid #E29CA9;
-	border-radius: 60px;
-	width: 115px;
-	height: 25px;
-	font-size: 10px;
-	padding: 0px 40px 0px 35px;
-	margin: 0px 50px 0px 10px;
-	background-image: url(https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/search.gif);
-	background-repeat: no-repeat;
-	background-position: 12px;
-}
+// input {
+// 	border: solid #E29CA9;
+// 	border-radius: 60px;
+// 	width: 115px;
+// 	height: 25px;
+// 	font-size: 10px;
+// 	padding: 0px 40px 0px 35px;
+// 	margin: 0px 50px 0px 10px;
+// 	background-image: url(https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/search.gif);
+// 	background-repeat: no-repeat;
+// 	background-position: 12px;
+// }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #F5D1D9;
@@ -330,7 +330,7 @@ col-37-facebook,
 
 
 .col-42-ml,
-col-43-bottom-nav,
+.col-43-bottom-nav,
 .col-44-mr {
 	height: 170px;
 }
@@ -387,3 +387,8 @@ col-43-bottom-nav,
 		display: none;
 	}
 }
+
+/* Import css for page two
+================================= */
+
+@import "pagetwo";

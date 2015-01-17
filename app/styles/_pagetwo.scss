@@ -1,0 +1,45 @@
+.col-5 {
+	border-radius: 0 0 60px 60px;
+	background-color: white;
+}	
+
+.main-wrapper-group.pagetwo {
+	background: #CDEEEC;
+	min-height: 700px;
+}
+
+
+.main-content.pagetwo {
+	background-color: white;
+	margin: auto 5% auto auto;
+}
+
+.side-nav {
+	background-color: #EDF9D3;
+	margin-top: 20px;
+	margin-left: 40px;
+	border-radius: 30px;
+	padding: 40px 10px;
+	width: auto;
+		
+		h4 {
+			border-bottom: 1px solid;
+			font-size: 1.1em;
+			text-align: center;
+		}
+
+		.side-nav__search input {
+			margin-right: 0px;
+
+		}
+
+		.side-nav__checkbox {
+			margin-right: -50px;
+
+			.side-nav__checkbox__input {
+				margin-right: 60px;
+				margin-top: 15px;
+			}
+		}
+
+}
