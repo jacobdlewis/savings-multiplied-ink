@@ -3,7 +3,7 @@ html(lang="en-US")
 		meta(charset="utf-8")
 		meta(http-equiv="X-UA-Compatible", content="IE=edge")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
-		title My Title
+		title Products
 		link(rel="stylesheet" href="/vendor/ink/dist/css/ink-flex.min.css")
 		link(rel="stylesheet" href="css/main.css")
 		//- Ink-grid is manditory for colums to work
@@ -39,7 +39,7 @@ html(lang="en-US")
 							input(type="text", placeholder="Search")
 
 			.column-group.row-2.main-wrapper-group.pagetwo
-				.all-10.col-1
+				.all-10.col-1.main__side
 				.column-group.all-80.col-5
 					.side-nav.all-15.pagetwo
 						h4.side-nav__title Limit your search by:
@@ -48,18 +48,57 @@ html(lang="en-US")
 								input(type="text")
 								button.ink-button Search
 						.column-group
-							.all-33
-								p Condition:
-							.all-33.side-nav__checkbox
-								input(type="checkbox")
-								input(type="checkbox")
-							.all-33.side-nav__label
-								p New
-								p Gently Used
-						p SIZE (ADD BUTTONS)
-						p SEASON (ADD BUTTONS)
-						p TYPE (ADD BUTTONS)
-						p BRAND (ADD DROPDOWN)
+							.all-50
+								p.side-nav__p-top Condition:
+							.all-50
+								<input type="checkbox" name="size" value="New"/> New <br>
+								<input type="checkbox" name="size" value="Gently Used"/> Gently Used
+						p.side-nav__p Size:
+						.column-group
+							.all-20
+							form.all-10
+								<input type="checkbox" name="size" value="2"/> 2
+								<input type="checkbox" name="size" value="3"/> 3
+								<input type="checkbox" name="size" value="4"/> 4
+								<input type="checkbox" name="size" value="5"/> 5
+							.all-25
+							form.all-10
+								<input type="checkbox" name="size" value="6"/> 6
+								<input type="checkbox" name="size" value="7"/> 7
+								<input type="checkbox" name="size" value="8"/> 8
+								<input type="checkbox" name="size" value="9"/> 9
+							.all-25
+						p.side-nav__p Season:
+						.column-group
+							.all-20
+							form.all-60
+								<input type="checkbox" name="season" value="All"/> All Seasons <br>
+								<input type="checkbox" name="season" value="Spring"/> Spring <br>
+								<input type="checkbox" name="season" value="Summer"/> Summer <br>
+								<input type="checkbox" name="season" value="Fall"/> Fall <br>
+								<input type="checkbox" name="season" value="Winter"/> Winter <br>
+							.all-20
+						p.side-nav__p Type:
+						.column-group
+							.all-20
+							form.all-60
+								<input type="checkbox" name="type" value="Any"/> Any <br>
+								<input type="checkbox" name="type" value="One"/> One-Piece <br>
+								<input type="checkbox" name="type" value="Tops"/> Tops <br>
+								<input type="checkbox" name="type" value="Bottoms"/> Bottoms <br>
+							.all-20
+						p.side-nav__p Brand:
+						.column-group
+							.all-20
+							.all-60
+								select
+									option(value="One") One
+									option(value="Two") Two
+									option(value="Three") Three
+									option(value="Four") Four
+							.all-20
+
+
 					.all-60.main-content
 						h5 All - Twin - B/G
 						.ink-navigation
@@ -109,35 +148,33 @@ html(lang="en-US")
 									li IMAGE HERE
 									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
 									li IMAGE HERE
-				.all-10.col-4
+				.all-10.col-4.main__side
 
-
-
-		.column-group
-			.all-10.col-42-ml
-			.all-80.col-43-bottom-nav
-				.bottom-nav
-					ul
-						li
-							p Link here
-						li
-							p |
-						li
-							p Link here
-						li
-							p |
-						li
-							p Link here
-						li
-							p |
-						li
-							p Link here
-						li
-							p |
-						li
-							p Link here
-						li
-							p |
-						li
-							p Link here
-			.all-10.col-44-mr
+				.column-group.bottom-nav__low
+					.all-10.col-42-ml
+					.all-80.col-43-bottom-nav
+						.bottom-nav
+							ul
+								li
+									p Link here
+								li
+									p |
+								li
+									p Link here
+								li
+									p |
+								li
+									p Link here
+								li
+									p |
+								li
+									p Link here
+								li
+									p |
+								li
+									p Link here
+								li
+									p |
+								li
+									p Link here
+					.all-10.col-44-mr
