@@ -103,19 +103,20 @@ li {
 }
 
 .row-3 {
-	height: 40px;
+	height: 75px;
 	background: #F1BEC9
 }
 
 ul.middle-nav {
-	display:inline;
-	margin: 200px;
+	display: block;
+	width: 100%;
+	// margin: 200px;
 	padding-top: 4px;
 	text-align: center;
 	font-weight: bold;
 	font-size: 18px;
 	font-family: serif;
-	line-spacing: 22px;
+	// line-spacing: 22px;
 	color: #74204F
 }
 
@@ -390,5 +391,5 @@ col-37-facebook,
 
 /* Import css for page two
 ================================= */
-
 @import "pagetwo";
+
