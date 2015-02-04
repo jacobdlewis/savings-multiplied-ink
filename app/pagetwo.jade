@@ -1,217 +1,223 @@
 html(lang="en-US")
-	head
-		meta(charset="utf-8")
-		meta(http-equiv="X-UA-Compatible", content="IE=edge")
-		meta(name="viewport", content="width=device-width, initial-scale=1")
-		title Products
-		link(rel="stylesheet" href="/vendor/ink/dist/css/ink-flex.min.css")
-		link(rel="stylesheet" href="css/main.css")
-		//- Ink-grid is manditory for colums to work
-		.ink-grid
-			.column-group.row-1
-				.all-70.row-1-col-1
-				.all-30.row-1-col-2
-					.login
-						p sign in | sign up
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Products
+    link(rel="stylesheet" href="/vendor/ink/dist/css/ink-flex.min.css")
+    link(rel="stylesheet" href="css/main.css")
+  body
+    //- Ink-grid is manditory for colums to work
+    .ink-grid
+      .column-group.row-1
+        .all-70.row-1-col-1
+        .all-30.row-1-col-2
+          .login
+            p sign in | sign up
 
-			.column-group.row-2
-				.all-10.col-1
-				.column-group.all-80.col-2
-						main-logo.xlarge-50.large-60.medium-60.small-100.tiny-100
-							img.main-logo(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
-						.main-header-nav.xlarge-50.large-40.medium-40.small-100.tiny-100
-							ul
-								li.about About
-								li.content Content
-								li.blog Blog
-								li.press Press
-								img.main-tagline(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/tagline.png")
-				.all-10.col-4
+      .column-group.row-2
+        .all-10.col-1
+        .column-group.all-80.col-2
+            main-logo.xlarge-50.large-60.medium-60.small-100.tiny-100
+              img.main-logo(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
+            .main-header-nav.xlarge-50.large-40.medium-40.small-100.tiny-100
+              ul
+                li.about About
+                li.content Content
+                li.blog Blog
+                li.press Press
+                img.main-tagline(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/tagline.png")
+        .all-10.col-4
 
-			.column-group.row-3
-				div.all-100
-					ul.middle-nav
-						li.buy Buy
-						li.sell Sell
-						li.how How it Works
-						li.links Links
-						li.community Community
-						input(type="text", placeholder="Search")
+      .column-group.row-3
+        div.all-100
+          ul.middle-nav
+            li.buy Buy
+            li.sell Sell
+            li.how How it Works
+            li.links Links
+            li.community Community
+            input(type="text", placeholder="Search")
 
-			.column-group.main-wrapper-group.pagetwo
-				.all-10.col-1.main__side
-				.column-group.all-80.col-5
-					.side-nav.all-15.pagetwo
-						h4.side-nav__title Limit your search by:
-						.ink-form
-							.control-group.append-button.side-nav__search
-								input(type="text")
-								button.ink-button Search
-						.column-group
-							.all-50
-								p.side-nav__p-top Condition:
-							.all-50
-								<input type="checkbox" name="size" value="New"/> New <br>
-								<input type="checkbox" name="size" value="Gently Used"/> Gently Used
-						p.side-nav__p Size:
-						.column-group
-							.all-20
-							form.all-10
-								label
-									input(type="checkbox" name="season" value="2")
-									| &nbsp; 2
-									br
-								label
-									input(type="checkbox" name="season" value="3")
-									| &nbsp; 3
-									br
-								label
-									input(type="checkbox" name="season" value="4")
-									| &nbsp; 4
-									br
-								label
-									input(type="checkbox" name="season" value="5")
-									| &nbsp; 5
-									br
-							.all-25
-							form.all-10
-								label
-									input(type="checkbox" name="season" value="6")
-									| &nbsp; 6
-									br
-								label
-									input(type="checkbox" name="season" value="7")
-									| &nbsp; 7
-									br
-								label
-									input(type="checkbox" name="season" value="8")
-									| &nbsp; 8
-									br
-								label
-									input(type="checkbox" name="season" value="9")
-									| &nbsp; 9
-									br
-							.all-25
-						p.side-nav__p Season:
-						.column-group
-							.all-20
-							form.all-60
-								label
-									input(type="checkbox" name="season" value="All")
-									| &nbsp; All Seasons
-									br
-								label
-									input(type="checkbox" name="season" value="Spring")
-									| &nbsp; Spring
-									br
-								label
-									input(type="checkbox" name="season" value="Summer")
-									| &nbsp; Summer
-									br
-								label
-									input(type="checkbox" name="season" value="Fall")
-									| &nbsp; Fall
-									br
-								label
-									input(type="checkbox" name="season" value="Winter")
-									| &nbsp; Winter
-									br
-							.all-20
-						p.side-nav__p Type:
-						.column-group
-							.all-20
-							form.all-60
-								<input type="checkbox" name="type" value="Any"/> Any <br>
-								<input type="checkbox" name="type" value="One"/> One-Piece <br>
-								<input type="checkbox" name="type" value="Tops"/> Tops <br>
-								<input type="checkbox" name="type" value="Bottoms"/> Bottoms <br>
-							.all-20
-						p.side-nav__p Brand:
-						.column-group
-							.all-20
-							.all-60
-								select
-									option(value="One") One
-									option(value="Two") Two
-									option(value="Three") Three
-									option(value="Four") Four
-							.all-20
+      .column-group.main-wrapper-group.pagetwo
+        .all-10.col-1.main__side
+        .column-group.all-80.col-5
+          .side-nav.all-15.pagetwo
+            h4.side-nav__title Limit your search by:
+            .ink-form
+              .control-group.append-button.side-nav__search
+                input(type="text")
+                button.ink-button Search
+            .column-group
+              .all-50
+                p.side-nav__p-top Condition:
+              .all-50
+                <input type="checkbox" name="size" value="New"/> New <br>
+                <input type="checkbox" name="size" value="Gently Used"/> Gently Used
+            p.side-nav__p Size:
+            .column-group
+              .all-20
+              form.all-10
+                label
+                  input(type="checkbox" name="season" value="2")
+                  | &nbsp; 2
+                  br
+                label
+                  input(type="checkbox" name="season" value="3")
+                  | &nbsp; 3
+                  br
+                label
+                  input(type="checkbox" name="season" value="4")
+                  | &nbsp; 4
+                  br
+                label
+                  input(type="checkbox" name="season" value="5")
+                  | &nbsp; 5
+                  br
+              .all-25
+              form.all-10
+                label
+                  input(type="checkbox" name="season" value="6")
+                  | &nbsp; 6
+                  br
+                label
+                  input(type="checkbox" name="season" value="7")
+                  | &nbsp; 7
+                  br
+                label
+                  input(type="checkbox" name="season" value="8")
+                  | &nbsp; 8
+                  br
+                label
+                  input(type="checkbox" name="season" value="9")
+                  | &nbsp; 9
+                  br
+              .all-25
+            p.side-nav__p Season:
+            .column-group
+              .all-20
+              form.all-60
+                label
+                  input(type="checkbox" name="season" value="All")
+                  | &nbsp; All Seasons
+                  br
+                label
+                  input(type="checkbox" name="season" value="Spring")
+                  | &nbsp; Spring
+                  br
+                label
+                  input(type="checkbox" name="season" value="Summer")
+                  | &nbsp; Summer
+                  br
+                label
+                  input(type="checkbox" name="season" value="Fall")
+                  | &nbsp; Fall
+                  br
+                label
+                  input(type="checkbox" name="season" value="Winter")
+                  | &nbsp; Winter
+                  br
+              .all-20
+            p.side-nav__p Type:
+            .column-group
+              .all-20
+              form.all-60
+                <input type="checkbox" name="type" value="Any"/> Any <br>
+                <input type="checkbox" name="type" value="One"/> One-Piece <br>
+                <input type="checkbox" name="type" value="Tops"/> Tops <br>
+                <input type="checkbox" name="type" value="Bottoms"/> Bottoms <br>
+              .all-20
+            p.side-nav__p Brand:
+            .column-group
+              .all-20
+              .all-60
+                select
+                  option(value="One") One
+                  option(value="Two") Two
+                  option(value="Three") Three
+                  option(value="Four") Four
+              .all-20
 
 
-					.all-60.main-content
-						.column-group
-							.all-40
-								h5 All - Twin - B/G
-							.all-60
-								.ink-navigation
-									ul.menu.horizontal
-										li.heading.active Home
-										li &nbsp; sort by:
-										li &nbsp; prev.
-										li &nbsp; page num.
-										li &nbsp; next
-										li &nbsp; view all
+          .all-60.main-content
+            .column-group
+              .all-40
+                h5 All - Twin - B/G
+              .all-60
+                .ink-navigation
+                  ul.menu.horizontal
+                    li.heading.active Home
+                    li &nbsp; sort by:
+                    li &nbsp; prev.
+                    li &nbsp; page num.
+                    li &nbsp; next
+                    li &nbsp; view all
 
-						.column-group
-							.all-25
-								ul
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")
-									li Item Here
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
-									li Item Here
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
-									li Item Here
-							.all-25
-								ul
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")
-									li Item Here
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
-									li Item Here
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
-									li Item Here
-							.all-25
-								ul
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")
-									li Item Here
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
-									li Item Here
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
-									li Item Here
-							.all-25
-								ul
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")
-									li Item Here
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
-									li Item Here
-									img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
-									li Item Here
-				.all-10.col-4.main__side
+            .column-group
+              .all-25
+                ul
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")
+                  li Item Here
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
+                  li Item Here
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
+                  li Item Here
+              .all-25
+                ul
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")
+                  li Item Here
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
+                  li Item Here
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
+                  li Item Here
+              .all-25
+                ul
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")
+                  li Item Here
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
+                  li Item Here
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
+                  li Item Here
+              .all-25
+                ul
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")
+                  li Item Here
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
+                  li Item Here
+                  img(src="https://lh5.ggpht.com/jAVgfROSWqvQBA2xc6XP1m9uJ3TxGFIIhUu-NiyrZkZljPvpZqDjR_2HkPOL2oqRs1ay=w170")									
+                  li Item Here
+        .all-10.col-4.main__side
 
-				.column-group.bottom-nav__low
-					.all-10.col-42-ml
-					.all-80.col-43-bottom-nav
-						.bottom-nav
-							ul
-								li
-									p Link here
-								li
-									p |
-								li
-									p Link here
-								li
-									p |
-								li
-									p Link here
-								li
-									p |
-								li
-									p Link here
-								li
-									p |
-								li
-									p Link here
-								li
-									p |
-								li
-									p Link here
-					.all-10.col-44-mr
+        .column-group.bottom-nav__low
+          .all-10.col-42-ml
+          .all-80.col-43-bottom-nav
+            .bottom-nav
+              ul
+                li
+                  p Link here
+                li
+                  p |
+                li
+                  p Link here
+                li
+                  p |
+                li
+                  p Link here
+                li
+                  p |
+                li
+                  p Link here
+                li
+                  p |
+                li
+                  p Link here
+                li
+                  p |
+                li
+                  p Link here
+          .all-10.col-44-mr
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js")
+    script(src="/js/main.js")
+
+
