@@ -14,8 +14,7 @@
       var endDate = item.endDate;
 
       //deal with date formatting
-      var endDateFormat = moment().format(item.endDate);
-      var timeUntilExp = moment(endDateFormat).fromNow();
+      var timeUntilExp = moment(endDate).fromNow();
 
       //jquery variables to append to page
       var $image = $('<img class="item_image" src='+ image +'>')
@@ -23,7 +22,7 @@
          $image.attr( 'src', 'img/deadlink.png');
        });
       var $title = $('<div>' + title + '</div>');
-      var $price = $('<div>' + price + '</div>');
+      var $price = $('<div>' + '$' + price + '</div>');
       var $seller = $('<div>' + seller + '</div>');
       var $endDate = $('<div>' + 'Item Expires: ' + timeUntilExp + '</div>');
       var $itemForSale = $('<div></div>')
