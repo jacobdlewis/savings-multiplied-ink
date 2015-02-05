@@ -11,6 +11,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "Ink": "~3.1.2"
+    "Ink": "~3.1.2",
+    "jquery": "~2.1.3",
+    "moment": "~2.9.0",
+    "lodash": "~3.1.0"
   }
 }

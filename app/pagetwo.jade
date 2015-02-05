@@ -34,7 +34,7 @@ html(lang="en-US")
           ul.middle-nav
             li.buy Buy
             li.sell Sell
-            li.how How it Works
+            li.how: a(href="index.html") How it Works
             li.links Links
             li.community Community
             input(type="text", placeholder="Search")
@@ -191,8 +191,9 @@ html(lang="en-US")
                 li
                   p Link here
           .all-10.col-44-mr
-    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js")
-    script(src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js")
-    script(src="/js/main.js")
+    script(src="vendor/jquery/dist/jquery.min.js")
+    script(src="vendor/lodash/lodash.js")
+    script(src="vendor/moment/moment.js")
+    script(src="js/main.js")
 
 
