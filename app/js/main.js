@@ -6,6 +6,9 @@
   var pricesUrl = 'https://savingsmultipliedssh.firebaseio.com/items.json';
   $.get(pricesUrl, function(data){
     _.forEach(data, function(item){
+      var endDateFormat = moment().format(item.endDate);
+      var now = moment();
+      var time = moment(endDateFormat).format(now);
       var itemImg = item.image;
       if (!itemImg) {
         itemImg = 'http://i.imgur.com/fyLXpT9.jpg';
@@ -19,7 +22,7 @@
                            '</div><div>' +
                            item.seller +
                            '</div><div>' +
-                           item.endDate +
+                           time +
                            '</div></div>');
       $('.itemGroup').append($itemForSale);
     });
