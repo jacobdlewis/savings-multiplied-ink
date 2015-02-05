@@ -393,8 +393,8 @@
    }
 
    .hr {
-      margin: 0; padding: 0;    
-      height: 7px;    
+      margin: 0; padding: 0;
+      height: 7px;
       background-image: url('https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/dotted_line_44x9.png');
       background-repeat: repeat-x;
       background-color: white; /* just to see the padding in IE6 */
@@ -403,11 +403,34 @@
 
   /* media queries
   ================================= */
+  @media (max-width: 600px) {
+   .header_wrapper{
+     ul{
+       display:none;
+     }
+   }
+   .login{
+     display:none;
+   }
+   .side-nav.pagetwo{
+     display:none;
+   }
+   .menu.horizontal{
+     display: none;
+   }
+   .all-40 h5 {
+     display: none;
+   }
+   .item_container {
+     margin-left: 50px;
 
-  @media (max-width: 1120px ) {
-    .img-tree {
-      display: none;
-    }
+     img{
+       width: 200px;
+     }
+   }
+   .bottom-nav {
+     display: none;
+   }
   }
 
   /* Import css for page two
